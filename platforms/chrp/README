@@ -1,0 +1,48 @@
+June 12, 1996
+
+The file CHNG_I10.* is a chronological list of all changes approved by
+the CHRP Board for the PowerPC Microprocessor Common Hardware Reference
+Platform:  I/O Device Reference, Version 1.0.
+
+June 10, 1996
+
+The file CHNG_C10.* is a chronological list of all changes approved by
+the CHRP Board for the PowerPC Microprocessor Common Hardware Reference
+Platform:  A System Architecture, Version 1.0.
+
+May 1, 1996
+
+The PowerPC Microprocessor Common Hardware Reference Platform:  I/O
+Device Reference, Version 1.0 has been added to this ftp site.  There
+are 7 files to the document in Postscript format.
+
+IO_R_10.* Roman numberal pages
+IO_1_10.* 50 pages
+IO_2_10.* 50 pages
+IO_3_10.* 50 pages
+IO_4_10.* 50 pages
+IO_5_10.* 50 pages
+IO_6_10.* Last pages
+
+November 13,1995
+
+The PowerPC Microprocessor Common Hardware Reference Platform:  A System
+Architecture, Version 1.0 is available via ftp file transfer.  There are
+8 files to the document and they are in Postscript format.  You will
+need approximately 8.3MB of disk space.
+ 
+HRPA_10R : Page   i- xxiv
+HRPA_101 : Page   1- 44
+HRPA_102 : Page  45- 88
+HRPA_103 : Page  89-132
+HRPA_104 : page 133-176
+HRPA_105 : page 177-220
+HRPA_106 : page 221-264
+HRPA_107 : page 265-310
+ 
+Files with extension .ps.Z were compressed in UNIX, while the one with
+extension .ZIP is a ZIPed package with all files.
+ 
+These files are for printing and viewing.  You may not alter them to
+produce your own version of the specification.  They are copyrighted by
+Apple, IBM, and Motorola.
