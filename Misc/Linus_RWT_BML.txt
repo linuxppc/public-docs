@@ -1,0 +1,122 @@
+Archived from:
+https://www.realworldtech.com/forum/?threadid=70864&curpostid=70875
+
+By: Linus Torvalds (torvalds.delete@this.osdl.org), August 30, 2006 6:34 pm
+Paul DeMone (pdemone@igs.net) on 8/30/06 wrote:
+>
+>Yet IBM persists in trying to sell Linux on PowerPC. :-P
+
+For once, I'll just forgo the IPF angle entirely, and just
+concentrate on Linux on POWER instead.
+
+I don't think Linux on POWER has anything to do with
+any IFP push (or lack there-of) at all, and has everything
+to do with the fact that IBM has real customers running
+Linux, and strategic positioning wrt that.
+
+Now, the fact is, if you're running Linux, you'd normally
+do it not on POWER as a primary platform, but using the
+much more common PC platforms (either 32-bit or 64-bit x86).
+
+IOW, the kinds of customers that ask for Linux usually
+don't necessarily ask for POWER.
+
+So I don't think the relatively low volumes of Linux on
+POWER reflects anything else than the fact that Linux/x86
+does extremely well, and obviously tends to be (in many
+areas) the price/performance leader by a long shot. Perhaps
+not always, but probably most of the time.
+
+So why do Linux/POWER at all then?
+
+I suspect (but hey, don't take this as gospel: I may have
+some visibility into Linux technical issues, but I
+have absolutely zero visibility into IBM strategic or any
+marketing plans) that's a totally separate market, and that
+IBM does it for two different reasons:
+
+- it makes sense in the virtualized environment, where
+you may want one box, but take advantage of the IBM
+superiority in virtualization (others are clearly
+working on it, but I don't think anybody will dispute
+that IBM is the leader in that area).
+
+NOTE! This market may not be huge, but it's important
+for IBM, and most of the machines probably run AIX
+in addition (and perhaps as a primary environment).
+
+- I think there is a strategic part to it, which is that
+not only has Linux helped IBM bring up several POWER
+tape-outs on silicon, I think IBM wants to keep its
+options open wrt both the future of POWER and the future
+of AIX.
+
+AIX on anything but POWER is clearly not interesting.
+Yes, it may work, but let's face it, if IBM were to
+ever move away from POWER as its primary high-end
+platform, AIX really isn't all that interesting. And
+I'm not saying they'll do it, but I bet somebody must
+have at least thought hard about what happens if/when
+x86-64 beats POWER on all the benchmarks.
+
+So I think IBM wants a strategy for that kind of an
+eventuality. Maybe not next year, maybe not the year
+after that, but five years from now? Ten? Who knows?
+If I were in change of IBM POWER strategy, I'd sure as hell
+look at how powerful the mass market is. And I'd make
+sure I have my ducks lined up a decade before it actually
+happens.
+
+Do you think IBM wants to be caught with its pants down,
+with Microsoft beating them senseless not because they
+make the best OS (hah), but because they run on the fastest
+hardware? I'd say "hell no". I'd be seriously looking for
+that "Plan B" to make sure that I don't get caught in that
+trap. IBM does not want to be at the mercy of MS
+as the only OS vendor on the PC platform. Again.
+
+And that requires Linux on POWER. Because they'd need to
+be able to migrate their customers gracefully, and they
+need to have a system stack ready that is portable, and
+AIX sure as hell isn't it.
+
+The same thing goes for AIX. Keep their options open,
+just in case it turns out that AIX doesn't have the legs
+or the flexibility.
+
+So none of this has anything to do with IPF, and the fact
+that IBM doesn't sell a lot of Linux on POWER doesn't
+necessarily bother them, if they feel they need it.
+
+It's not like they need to worry about their Linux/POWER
+efforts dragging down their bottom line. The people that
+do POWER-specific stuff isn't that large of a group,
+and I can pretty much guarantee you that Linux on POWER has
+already made them money, if only because of faster and more
+productive bring-up of hardware.
+
+So even if they hadn't sold a single POWER machine with
+Linux installed to an actual customer, they'd probably have
+indirectly paid for their Linux/POWER group thanks to it
+helping bring up and do system testing on the chips a few
+months earlier.
+
+Search for "BML linux power5 bring-up" on google, you'll
+find some of the stories. ("BML" stands for "bare metal
+Linux", which is basically Linux on POWER without any need
+for firmware/virtualization etc).
+
+Strategic decisions that also end up saving you
+tons of money in other areas are the best kind. You don't
+want to pay billions of dollars as an insurance policy.
+If you can have an insurance policy that also ends up
+helping you in other areas and pays you back more than you
+put into it (regardless of whether you need it in the end
+or not), wouldn't you take it?
+
+Linus
+
+PS. Let me re-iterate: the above is entirely speculative
+when it comes to any theory about IBM strategy. So take
+it as you may. The bringup advantages are not speculation,
+though.
