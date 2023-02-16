@@ -1,0 +1,133 @@
+July 10, 1996
+
+RESIDUAL.PS added = update of residual.ps.Z already out there. This is
+version 0.6 and includes CPU_NOT_PRESENT = 255.
+
+************************************************************************
+July 2, 1996
+
+RESIDUAL.H and PNP.H -- flat file versions of the appendices in
+residual.ps.Z. ALWAYS USE THESE FILES in preference to anything in
+the postscript file. They will generally be more recent.
+************************************************************************
+April 3, 1996
+
+residual.ps.Z -- Level 0.5 of the PR*P Residual Data Spec - minor changes.
+Contact Ray Pedersen (rj@vnet.ibm.com) with questions/problems.
+
+************************************************************************
+January 25, 1996
+
+nvram_p.ps  -- The specification for PReP NVRAM
+version 0.3.  Contact Ray Pedersen (rj@ausvm6.vnet.ibm.com)
+for problems/comments.
+
+December 19, 1995
+
+residual.ps.Z  -- The specification for PReP Residual data
+version 0.4.  Contact Ray Pedersen (rj@ausvm6.vnet.ibm.com)
+for problems/comments.
+
+
+November 14, 1995
+
+The PowerPC Platform specification has been added in the subdirectory
+chrp.  This document, PowerPC Microprocessor Common Hardware reference
+Platform: A System Architecture, defines the architecture and minimum
+system requirments for a PowerPC Platform.
+
+************************************************************************
+May 17, 1995
+
+An overview white paper has been jointly published
+by IBM, Motorola, and Apple on the development
+of the PowerPC hardware reference platform.  It is
+in Postscript format.  If you cannot print Postscript files,
+you may call 1-800-IBM-4FAX and request document
+#3559.
+
+     jointhrp.ps:  12 pages
+************************************************************************
+
+April 12, 1995
+
+A new technical white paper has been added.  It is in
+Postscript format.  If you cannot print Postscript files,
+you may call 1-800-IBM-4FAX and request hardcopies
+by its appropriate document number.
+
+1. PowerPC Reference Platform Architectural Aspects of
+   Power Management
+   (pm_paper.ps: 12 pages)
+   Document #3558
+   This paper presents an overview of Power Management and
+   defines system-level requirements for hardware and software.
+
+***********************************************************************
+
+March 29, 1995
+
+Five additional technical papers are available via ftp file
+transfer.  These files are in Postscript format.  If you cannot
+print Postscript files, you may call 1-800-IBM-4FAX and request
+hardcopies, by document number.
+
+
+1. PowerPC Endian Switch Code
+   (ENDIAN.PS: 58K bytes, 16 pages)
+   Document# 3553
+   This report summaries various considerations when performing
+   endian changing after boot time for the current set of
+   PowerPC processors and different bus bridges/memory controllers.
+
+2. Plug and Play for PowerPC Reference Platform
+   (PNP.PS: 59K bytes, 14 pages)
+   Document# 3554
+   This paper outlines the concepts of Plug and Play which
+   lets computer hardware and attached devices work together
+   automatically, and applies them to a PowerPC Platform.
+
+3. PCI DMA for PowerPC Reference Platform
+   (PCIDMA.PS: 51K bytes, 10 pages)
+   Document# 3555
+   This paper explores the various options of Direct Memory Access (DMA)
+   and make recommendation for the PowerPC Reference Platform.
+
+4. PowerPC 60x/PCI Bus Bridge Design for PowerPC Reference Platform
+   (PPCIREQ.PS: 101K bytes, 20 pages)
+   Document# 3556
+   This paper discusses design and implementation of the 60x/PCI
+   bus bridge chip for PowerPC Reference Platform design.
+
+5. L2 Cache Design for PowerPC-Based Systems
+   (L2PART1.PS: 131K bytes, pages 1-5,
+    L2PART2.PS: 124Kbytes, pages 6-8,
+    L2PART3.PS: 156K bytes, pages 9-12,)
+    Document #3557 for all three parts
+   This paper provides some guidance in designing, specifying, or
+   selecting L2 cache subsystems for PowerPC-based computers targeted
+   by the PowerPC Reference Platform Specification.
+
+************************************************************************
+
+October 26, 1994
+
+The PowerPC Reference Platform Specification Version 1.1 is available
+via ftp file transfer.  There are 8 files to the document and are
+in Postscript format.  You will need approximately 12.7MB of disk space.
+
+SRP1_101 : Page   1- 40
+SRP1_102 : Page  41- 80
+SRP1_103 : Page  81-120
+SRP1_104 : Page 121-160
+SRP1_105 : page 161-200
+SRP1_106 : page 201-240
+SRP1_107 : page 241-280
+SRP1_108 : page 281-319
+
+Files with extension .ps.Z were compressed in UNIX, while
+the one with extension .EXE is a self-exploding PKZIPed package.
+
+These files are for printing and viewing.  You may not alter
+them to produce your own version of the specification.  They
+are copyrighted by IBM.
